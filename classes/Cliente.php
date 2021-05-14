@@ -7,7 +7,7 @@ class Cliente {
 
     //metodos
     public function mostrarDados(){
-        return ($this->id ." ". $this->nome);
+        return ($this->id ." - ". $this->nome);
     }
 }
 
