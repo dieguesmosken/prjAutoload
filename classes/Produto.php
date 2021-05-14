@@ -3,6 +3,8 @@
 //criar os atributos id, produto, valor
 //criar o metodo mostrarProduto
 
+//enviar ao github --> git push origin master
+
 class Produto{
 
 public $id;
