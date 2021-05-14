@@ -6,16 +6,16 @@ require_once 'classes/Produto.php';
 //instanciar um objeto
 $c1 = new Cliente();
 
-$c1->id = 10;
-$c1->nome = "Tone Alex Guerra";
+$c1->id = rand(1, 10);
+$c1->setNome("Tone Alex Guerra");
 
 $c2 = new Cliente();
 
-$c2->id = 11;
-$c2->nome = "Matheus Mosken Diegues";
+$c2->id = rand(1, 10);
+$c2->setNome("Matheus Mosken Diegues");
 
 $p1 = new Produto();
-$p1->id = 4;
+$p1->id = rand(1, 100);
 $p1->produto = "Mouse";
 $p1->valor = "50 Reais";
 
