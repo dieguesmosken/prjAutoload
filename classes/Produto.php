@@ -8,13 +8,31 @@
 //enviar ao github --> git push origin master
 
 class Produto{
+//converter para privado os atributos
+//criar set para cada atributo
+//sobrescrever o metodo construttor
+private $id;
+private $produto;
+private $valor;
 
-public $id;
-public $produto;
-public $valor;
+public function __construct($id, $produto, $valor ){
+    $this->setId($id);
+    $this->setProduto($produto);
+    $this->setValor($valor);
+}
 
 public function mostrarProduto(){
     return ($this->id ." - ". $this->produto." - ". $this->valor );
 }
+public function setId($id){
+    $this->id = $id;
+}
+public function setProduto($produto){
+    $this->produto = $produto;
+}
+public function setValor($valor){
+    $this->valor = $valor;
+}
+
 }
 ?>

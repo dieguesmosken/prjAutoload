@@ -6,6 +6,13 @@ class Cliente {
     private $nome;
 
     //metodos
+
+    //sobreecrita override
+    public function __construct($id, $nome){
+        $this->id = $id;
+        $this->setNome($nome);
+    }
+    
     public function mostrarDados(){
         return ($this->id ." - ". $this->nome);
     }

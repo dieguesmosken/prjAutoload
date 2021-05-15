@@ -4,20 +4,15 @@ require_once 'classes/Produto.php';
 
 
 //instanciar um objeto
-$c1 = new Cliente();
+$c1 = new Cliente(rand(1, 10), "Tone Alex Guerra");
 
-$c1->id = rand(1, 10);
-$c1->setNome("Tone Alex Guerra");
 
-$c2 = new Cliente();
 
-$c2->id = rand(1, 10);
-$c2->setNome("Matheus Mosken Diegues");
+$c2 = new Cliente(rand(1, 10), "Matheus Mosken Diegues");
 
-$p1 = new Produto();
-$p1->id = rand(1, 100);
-$p1->produto = "Mouse";
-$p1->valor = "50 Reais";
+
+$p1 = new Produto(rand(1, 100), "Mouse", "50 Reais");
+
 
 echo $c2->mostrarDados();
 echo "<br>";
