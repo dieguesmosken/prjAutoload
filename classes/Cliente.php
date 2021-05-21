@@ -19,6 +19,9 @@ class Cliente {
     public function setNome($nome){
         $this->nome = strtoupper($nome);
     }
+    public function getNome(){
+        return $this->nome;
+    }
 }
 
 ?>

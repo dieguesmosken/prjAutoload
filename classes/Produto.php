@@ -33,6 +33,5 @@ public function setProduto($produto){
 public function setValor($valor){
     $this->valor = $valor;
 }
-
 }
 ?>
