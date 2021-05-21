@@ -1,13 +1,14 @@
 <?php
-class revista{
+class Revista{
     public $nome;
     public $autor;
+    public $ed;
 
     public function getNome(){
-        return ($this-nome);
+        return $this->nome;
     }
     public function getAutor(){
-        return ($this-autor);
+        return $this->autor;
     }
     
 }
