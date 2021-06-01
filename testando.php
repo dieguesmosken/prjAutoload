@@ -1,7 +1,8 @@
 <?php
 
 require "vendor/autoload.php";
-
+use App\classes\testes\ClasseB;
+use App\classes\testes\ClasseA;
 echo "<hr>";
 $minhaClasseB = new ClasseB();
 $minhaClasseB->rg = 123456;

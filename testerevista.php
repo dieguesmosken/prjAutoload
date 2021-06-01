@@ -1,6 +1,7 @@
 <?php
 require "vendor/autoload.php";
-
+use App\classes\testes\Revista;
+use App\classes\testes\Edicao;
 
 
 $objED = new Edicao();

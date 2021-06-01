@@ -1,4 +1,5 @@
 <?php
+namespace App\classes\testes;
 class Revista{
     public $nome;
     public $autor;
