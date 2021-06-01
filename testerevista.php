@@ -1,6 +1,6 @@
 <?php
-require_once "classes/testes/Edicao.php";
-require_once "classes/testes/Revista.php";
+require "vendor/autoload.php";
+
 
 
 $objED = new Edicao();

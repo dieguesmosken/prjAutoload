@@ -1,4 +1,6 @@
 <?php
+namespace App\classes;
+
 class Venda {
     public $obCli;
     public $obProd;

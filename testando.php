@@ -1,7 +1,6 @@
 <?php
-require_once 'classes/testes/ClasseA.php';
-require_once 'classes/testes/ClasseB.php';
 
+require "vendor/autoload.php";
 
 echo "<hr>";
 $minhaClasseB = new ClasseB();

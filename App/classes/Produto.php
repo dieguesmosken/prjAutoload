@@ -4,7 +4,7 @@
 //criar o metodo mostrarProduto
 //git remote add origin https://github.com/dieguesmosken/prjAutoload.git
 //git remote
-
+namespace App\classes;
 //enviar ao github --> git push origin master
 
 class Produto{

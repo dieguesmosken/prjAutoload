@@ -1,5 +1,7 @@
 <?php
 
+namespace App\classes;
+
 class Cliente {
     //atributos
     public $id;

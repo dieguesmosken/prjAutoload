@@ -1,6 +1,8 @@
 <?php
-require_once 'classes/Cliente.php';
-require_once 'classes/Produto.php';
+require 'vendor/autoload.php';
+
+use App\classes\Cliente;
+use App\classes\Produto;
 
 
 //instanciar um objeto
