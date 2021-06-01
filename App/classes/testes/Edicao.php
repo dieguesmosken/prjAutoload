@@ -1,5 +1,5 @@
 <?php
-
+namespace App\classes\testes;
 class Edicao {
     private $id;
     private $titulo;
