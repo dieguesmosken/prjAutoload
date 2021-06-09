@@ -21,6 +21,7 @@ print_r($objlutador1->mostrarLutador());
 
 ?>
 </div>
+<!-- teste-->
 <div>
     <h4>Lutador 2</h4>
     <?php
